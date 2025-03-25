@@ -1,12 +1,228 @@
 {
   "Version": 1,
-  "Hash": "g9xyaQH0Ms2aS1NSWgFXA4ari9Cqx6/g/ap2lS3WOVg=",
+  "Hash": "tzrJr2ya/VhC3I8fVbMWSYx7n5fuXXdTWZdHRr48Lkg=",
   "Source": "CRUDProject",
   "BasePath": "_content/CRUDProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CRUDProject\\wwwroot",
+      "Source": "CRUDProject",
+      "ContentRoot": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\",
+      "BasePath": "_content/CRUDProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\css\\styles.css",
+      "SourceId": "CRUDProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\",
+      "BasePath": "_content/CRUDProject",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1cm35yidqi",
+      "Integrity": "Lx85iBJmLCGE2aLMJE8tjmFbyvXhidwoz3bhprCe/+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\index.html",
+      "SourceId": "CRUDProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\",
+      "BasePath": "_content/CRUDProject",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w1eugylmrv",
+      "Integrity": "pEp2LOj6DjN1BAAV+mYnpHXZFkNrCUAq1+huOxYZ1oA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/styles.1cm35yidqi.css",
+      "AssetFile": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lx85iBJmLCGE2aLMJE8tjmFbyvXhidwoz3bhprCe/+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 23:59:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1cm35yidqi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lx85iBJmLCGE2aLMJE8tjmFbyvXhidwoz3bhprCe/+8="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lx85iBJmLCGE2aLMJE8tjmFbyvXhidwoz3bhprCe/+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 23:59:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lx85iBJmLCGE2aLMJE8tjmFbyvXhidwoz3bhprCe/+8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pEp2LOj6DjN1BAAV+mYnpHXZFkNrCUAq1+huOxYZ1oA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 23:54:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pEp2LOj6DjN1BAAV+mYnpHXZFkNrCUAq1+huOxYZ1oA="
+        }
+      ]
+    },
+    {
+      "Route": "index.w1eugylmrv.html",
+      "AssetFile": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pEp2LOj6DjN1BAAV+mYnpHXZFkNrCUAq1+huOxYZ1oA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 23:54:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w1eugylmrv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pEp2LOj6DjN1BAAV+mYnpHXZFkNrCUAq1+huOxYZ1oA="
+        }
+      ]
+    }
+  ]
 }
