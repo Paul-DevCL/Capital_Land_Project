@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\Index.js",
+      "PackagePath": "staticwebassets\\Index.js"
+    },
+    {
       "Id": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
