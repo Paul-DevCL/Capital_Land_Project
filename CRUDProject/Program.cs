@@ -1,5 +1,3 @@
-
-
 using CRUDProject.Data;
 using Microsoft.EntityFrameworkCore;
 
