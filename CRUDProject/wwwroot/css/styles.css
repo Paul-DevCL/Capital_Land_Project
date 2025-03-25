@@ -1,0 +1,32 @@
+﻿.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 20px;
+    font-family: Arial;
+    background: linear-gradient(90deg, rgba(246,48,64,1) 25%, rgba(87,86,91,1) 75%);
+    border-radius: 35px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+#addProductBtn {
+    width: 120px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+    #addProductBtn:hover {
+        border: 2px solid #04AA6D;
+    }
