@@ -9,6 +9,7 @@
     font-family: Arial;
     background: linear-gradient(90deg, rgba(246,48,64,1) 25%, rgba(87,86,91,1) 75%);
     border-radius: 35px;
+    color: white !important;
 }
 
 .table-container {
@@ -27,6 +28,4 @@
     border-radius: 50px;
 }
 
-    #addProductBtn:hover {
-        border: 2px solid #04AA6D;
-    }
+
