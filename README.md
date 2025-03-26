@@ -57,8 +57,8 @@
   If you encounter any issues regarding the https certificate not being trusted, do the following : 
 
   Run these 2 commands 1 by 1 in your Package Manager Console - 
-   dotnet dev-certs https --clean,
-   dotnet dev-certs https --trust
+   1. dotnet dev-certs https --clean
+   2. dotnet dev-certs https --trust
 
   Try and run it again.
 
