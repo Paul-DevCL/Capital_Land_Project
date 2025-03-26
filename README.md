@@ -1,4 +1,6 @@
 # CRUDProject
+
+RUN
  Steps for running this locally: 
 
   1. Go to this website - 
@@ -61,6 +63,28 @@
    2. dotnet dev-certs https --trust
 
   Try and run the program again.
+
+TESTING
+To test this application, you will see that there will be a few rows of data in the table already.
+
+You can start by either deleting each one of them individually by clicking on the bin icon in the Actions column or just continue with the data already there.
+
+Click on the Add Product button and you will see the modal open. Here you can enter a new product's name , description and price.
+
+Name and Description cannot be empty.
+Price cannot be 0 or empty. 
+
+After entering the info , press the Add Product button.
+
+If all validation is successful, the modal will close and the table will contain the newly created record along with any other previous records.
+
+If validation was not successful, the user will receive a clear indication of where the issue is.
+
+The user can also click on any product name in the table. This will open a modal where the details are prepopulated so the user can see exactly what the current details are of that product.
+The user can then choose to change a value, then press on the Update Product button , the modal will close and the change will be reflected in the table.
+
+I also added a message in the table that will alert the user to there being no products if the db is empty. 
+
 
 
 
