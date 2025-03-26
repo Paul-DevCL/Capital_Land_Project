@@ -1,1 +1,23 @@
+I opted to use Web APIs instead of MVC because:
+  1. RESTful APIs are the industry standard.
+  2. BE and FE logic are seperated due to us not having to use the rendering logic of MVC.
+  3. This also makes Web APIs easy and simple to connect to a FE framework to build a SPA.
+  4. Lightweight - Due to not having to use view rendering and server-side UI concerns.
 
+I chose to use SQLite. Much simplier setup than MSSQL.
+
+For the FE I added jQuery and AJAX
+  jQuery for simple and uniform DOM manipulations.
+  AJAX for clean and concise API calls.
+
+In terms of improvement, here are a few things I would do:
+  1. Switch to a JS FE framework, like React. This will cause the SPA to have a FE that's much more manageable and scalable through the use of components instead of direct DOM manipulation.
+  2. Add pagination - this will facilitate a page layout with a set amount of rows in the table, with the option to go to the next or previous page to display the rest of the data.
+  3. Repository pattern - this is an excellent way to seperate any db query logic with controller logic. This allows you to define a repo , create a method of that repo that has the db query in,
+             you then call the method instead of quering the db directly from the Controllers.
+  4. Automapper - this maps between the dto's and the domain models, removing redunant code.
+  5. Batch Delete option - for a better user experience, a multi-delete option would be standard practice.
+  6. Adding Search functionality - Allowing users to find data in the table much easier.
+  7. Filtering options - Allowing users to find data in the table much easier.
+  8. User Verification before a delete happens - This would be a safeguard against any accidental deleting of records.
+  9. Limit the amount of decimal places in the price column for better readability. 
