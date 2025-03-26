@@ -20,18 +20,27 @@ function getAllProducts() {
 };
 
 function populateProductTable(data) {
-    $('#productsTable').empty();
-
-    data.forEach(function (product) {
+    $('#productsTable').empty(); 
+    if (data.length === 0) {
         const row = $('<tr>');
-
-        $('<td>').html('<a href="#" class="table-links" onclick="openUpdateModal(' + product.id + ')">' + product.name + '</a>').appendTo(row);
-        $('<td>').text(product.description).appendTo(row);
-        $('<td>').text(product.price).appendTo(row);
-        $('<td>').html('<i class="fa-solid fa-trash" style="color:red" onclick="deleteProduct(' + product.id + ')"></i>').appendTo(row);
-
+        $('<td style="text-align: center;">')
+            .attr('colspan', '4')
+            .text('There are no products to display.')
+            .appendTo(row);
         $('#productsTable').append(row);
-    })
+    } else {
+        data.forEach(function (product) {
+            const row = $('<tr>');
+
+            $('<td>').html('<a href="#" class="table-links" onclick="openUpdateModal(' + product.id + ')">' + product.name + '</a>').appendTo(row);
+            $('<td>').text(product.description).appendTo(row);
+            $('<td>').text(product.price).appendTo(row);
+            $('<td>').html('<i class="fa-solid fa-trash" style="color:red" onclick="deleteProduct(' + product.id + ')"></i>').appendTo(row);
+
+            $('#productsTable').append(row);
+        });
+    }
+    
 };
 
 function deleteProduct(id) {

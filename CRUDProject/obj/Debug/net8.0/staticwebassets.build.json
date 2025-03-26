@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ueXJ7FO7/fRLgD4DX6LaTl0GkmfapqmZPQZYOGzuu0Q=",
+  "Hash": "sss0bcFpgAcAbQdASqWTLeQrJjuL1pluM3NVDy5tcgc=",
   "Source": "CRUDProject",
   "BasePath": "_content/CRUDProject",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rte7fs3ouz",
-      "Integrity": "z9XsP5G0oct9jMuRgSWFhNDfDNPV13UtOlQ3ymdFWe0=",
+      "Fingerprint": "e0n0yt1u6i",
+      "Integrity": "fvqUvGn3J/R6goq8n8jquU3Mq586T/emZ5kQQ4YBz8Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oi03j85e5n",
-      "Integrity": "oPf9Xz3y767tsuWwognoSX+2cZKVlZeHkjO16f+lL8U=",
+      "Fingerprint": "owfabu9fhf",
+      "Integrity": "COKqpMg2ogYeptsiGf8pJ3+beyQuAK3hzCrX1cIT4GM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Index.js"
@@ -92,7 +92,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4595"
+          "Value": "4529"
         },
         {
           "Name": "Content-Type",
@@ -100,11 +100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z9XsP5G0oct9jMuRgSWFhNDfDNPV13UtOlQ3ymdFWe0=\""
+          "Value": "\"fvqUvGn3J/R6goq8n8jquU3Mq586T/emZ5kQQ4YBz8Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 01:34:17 GMT"
+          "Value": "Wed, 26 Mar 2025 01:51:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -114,12 +114,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z9XsP5G0oct9jMuRgSWFhNDfDNPV13UtOlQ3ymdFWe0="
+          "Value": "sha256-fvqUvGn3J/R6goq8n8jquU3Mq586T/emZ5kQQ4YBz8Y="
         }
       ]
     },
     {
-      "Route": "css/styles.rte7fs3ouz.css",
+      "Route": "css/styles.e0n0yt1u6i.css",
       "AssetFile": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -129,7 +129,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4595"
+          "Value": "4529"
         },
         {
           "Name": "Content-Type",
@@ -137,11 +137,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z9XsP5G0oct9jMuRgSWFhNDfDNPV13UtOlQ3ymdFWe0=\""
+          "Value": "\"fvqUvGn3J/R6goq8n8jquU3Mq586T/emZ5kQQ4YBz8Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 01:34:17 GMT"
+          "Value": "Wed, 26 Mar 2025 01:51:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -151,7 +151,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rte7fs3ouz"
+          "Value": "e0n0yt1u6i"
         },
         {
           "Name": "label",
@@ -159,7 +159,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z9XsP5G0oct9jMuRgSWFhNDfDNPV13UtOlQ3ymdFWe0="
+          "Value": "sha256-fvqUvGn3J/R6goq8n8jquU3Mq586T/emZ5kQQ4YBz8Y="
         }
       ]
     },
@@ -256,7 +256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4837"
+          "Value": "5173"
         },
         {
           "Name": "Content-Type",
@@ -264,11 +264,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oPf9Xz3y767tsuWwognoSX+2cZKVlZeHkjO16f+lL8U=\""
+          "Value": "\"COKqpMg2ogYeptsiGf8pJ3+beyQuAK3hzCrX1cIT4GM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 01:47:38 GMT"
+          "Value": "Wed, 26 Mar 2025 02:13:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -278,12 +278,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oPf9Xz3y767tsuWwognoSX+2cZKVlZeHkjO16f+lL8U="
+          "Value": "sha256-COKqpMg2ogYeptsiGf8pJ3+beyQuAK3hzCrX1cIT4GM="
         }
       ]
     },
     {
-      "Route": "Index.oi03j85e5n.js",
+      "Route": "Index.owfabu9fhf.js",
       "AssetFile": "C:\\Users\\ppret\\OneDrive\\Documents\\Capital Land\\CRUDProject\\CRUDProject\\wwwroot\\Index.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -293,7 +293,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4837"
+          "Value": "5173"
         },
         {
           "Name": "Content-Type",
@@ -301,11 +301,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oPf9Xz3y767tsuWwognoSX+2cZKVlZeHkjO16f+lL8U=\""
+          "Value": "\"COKqpMg2ogYeptsiGf8pJ3+beyQuAK3hzCrX1cIT4GM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 01:47:38 GMT"
+          "Value": "Wed, 26 Mar 2025 02:13:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -315,7 +315,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oi03j85e5n"
+          "Value": "owfabu9fhf"
         },
         {
           "Name": "label",
@@ -323,7 +323,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oPf9Xz3y767tsuWwognoSX+2cZKVlZeHkjO16f+lL8U="
+          "Value": "sha256-COKqpMg2ogYeptsiGf8pJ3+beyQuAK3hzCrX1cIT4GM="
         }
       ]
     }
