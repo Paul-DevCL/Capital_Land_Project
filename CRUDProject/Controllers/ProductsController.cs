@@ -48,7 +48,7 @@ namespace CRUDProject.Controllers
                     Name = addProductDto.Name,
                     Description = addProductDto.Description,
                     Price = addProductDto.Price,
-                    CreatedDate = addProductDto.CreatedDate,
+                    CreatedDate = DateTime.Now,
                 };
 
                 await context.Products.AddAsync(product);
