@@ -60,7 +60,7 @@
    1. dotnet dev-certs https --clean
    2. dotnet dev-certs https --trust
 
-  Try and run it again.
+  Try and run the program again.
 
 
 
